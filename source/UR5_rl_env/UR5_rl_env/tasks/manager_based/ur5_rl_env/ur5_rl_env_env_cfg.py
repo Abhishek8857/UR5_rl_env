@@ -25,7 +25,6 @@ from . import mdp
 
 from isaaclab_assets.robots.cartpole import CARTPOLE_CFG  # isort:skip
 
-
 ##
 # Scene definition
 ##
@@ -178,3 +177,4 @@ class Ur5RlEnvEnvCfg(ManagerBasedRLEnvCfg):
         # simulation settings
         self.sim.dt = 1 / 120
         self.sim.render_interval = self.decimation
+
