@@ -29,6 +29,7 @@ from isaaclab_assets.robots.cartpole import CARTPOLE_CFG  # isort:skip
 # Scene definition
 ##
 
+robot: ArticulationCfg = CARTPOLE_CFG.replace(prim_path="{ENV_REGEX_NS}/Robot")
 
 @configclass
 class Ur5RlEnvSceneCfg(InteractiveSceneCfg):
