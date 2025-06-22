@@ -42,7 +42,9 @@ class Ur5RlEnvSceneCfg(InteractiveSceneCfg):
     )
 
     # robot
-    robot: ArticulationCfg = CARTPOLE_CFG.replace(prim_path="{ENV_REGEX_NS}/Robot")
+    robot: ArticulationCfg = CARTPOLE_CFG.replace(
+        prim_path="{ENV_REGEX_NS}/Robot"
+    )
 
     # lights
     dome_light = AssetBaseCfg(

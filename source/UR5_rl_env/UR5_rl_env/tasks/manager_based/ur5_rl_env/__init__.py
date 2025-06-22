@@ -13,7 +13,7 @@ from . import agents
 
 
 gym.register(
-    id="Template-Ur5-Rl-Env-v0",
+    id="UR5-Peg-in-Hole-Manager",
     entry_point="isaaclab.envs:ManagerBasedRLEnv",
     disable_env_checker=True,
     kwargs={
